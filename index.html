@@ -17,10 +17,10 @@
 
 <body>
     <header>
-        <div><img src="img/logo.png" alt="Colter Bassi"></div>
-        <div>
+        <div class="container">
+            <img class="logo" src="img/logo.png" alt="Colter Bassi">
             <nav>
-                <ul>
+                <ul class="navigation">
                     <li><a href="index.html">Work</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#contact">Contact</a></i>
@@ -29,16 +29,18 @@
         </div>
     </header>
     <main>
-        <div>
-            <div>
+        <div id="hero">
+            <div class="container">
                 <H1> Hello, My name is Colter Bassi</H1>
+                <div class="row"></div>
                 <span>I'm a UX designer from California!</span>
                 <p>I'm excited to work on impactful projects and bring value to peoples lives through design</p>
             </div>
         </div>
-        <h2>My Work</h2>
-        <div>
+        <div class="row"></div>
+        <div class="container">
             <div>
+                <h2>My Work</h2>
                 <picture>
                     <source srcset="img/ts_hspagex1.png" media="(max-width:767px)">
                     <img src="img/ts_hspagex2.png" alt="trip_sitter mockup">
@@ -51,7 +53,8 @@
                 <a href="tripsitter.html" class="button">View Case Study</a>
             </div>
         </div>
-        <div>
+        <div class="row"></div>
+        <div class="container">
             <div>
                 <picture>
                     <source srcset="img\fz_hspagex1.png" media="(max-width:767px)">
@@ -68,13 +71,17 @@
 
     </main>
     <footer id="contact">
-        <div>
+        <div class="aboutsection">
             <h2>Get In Touch</h2>
+            <div class="row"></div>
             <h3>Give me a call! (209) 694-6744</h3>
+            <div class="row"></div>
             <a href="mailto:colterbassi@gmail.com" class="button contact">colterbassi@gmail.com</a>
-            <a href="https://www.linkedin.com/in/colterbassi/"><img src="img/linkedinicon.svg" /></a>
+            <div class="row"></div>
+            <a class="socials" href="https://www.linkedin.com/in/colterbassi/"><img class="socials" src="img/linkedinicon.svg" /></a>
         </div>
     </footer>
+
 </body>
 
 </html>

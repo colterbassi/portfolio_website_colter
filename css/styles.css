@@ -3,19 +3,22 @@ Colors used:
 Primary Color (Black): #2e2e2e;
 */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
 body {
     background-color: white;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.4;
     color: #2e2e2e;
 }
 
 
-h1,
-h2,
-h3 {
+h1,h2,h3 {
     line-height: 1.4;
 }
 
@@ -60,6 +63,7 @@ a:active {
 }
 
 .button {
+    margin-top: 15px;
     display: inline-block;
     /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
     background-color: #7050ff;
@@ -109,14 +113,93 @@ a:active {
     text-decoration: none;
 }
 
-header {
-    background-color: rgb(255, 255, 255);
+.socials { 
+    width: 25%;
 }
+
+/*styling layout*/
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.247);
+}
+
+.container {
+    padding: 0 15px;
+}
+
+.row {
+    padding: 10px;
+}
+
+.row2 {
+    padding: 3px;
+}
+
+.row3 {
+    padding: 32px;
+}
+
+.profilepic {
+   width: 50%;
+   margin: auto;
+
+}
+
+.logo {
+    max-width: 250px;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+  }
+
+nav > ul > li > a {
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 8px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4a4a4a;
+  }
+
+  
+nav > ul > li > a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+#hero {
+    background-color: #ffffff;
+    display: inline-block;
+    width: 100%;
+  }
 
 main {
-    background-color: rgb(255, 255, 255);
+    padding-top: 190px;
 }
 
-footer {
-    background-color: rgb(255, 255, 255);
+/*styling layout for about*/
+
+.background {
+    margin: 15px;
+}
+
+.aboutsection {
+    margin: 15px;
+    text-align: left;
+}
+
+.tripcontainer {
+    margin: 15px;
 }
