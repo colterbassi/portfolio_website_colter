@@ -48,6 +48,10 @@ body {
     color: #2e2e2e;
 }
 
+p {
+    padding-top: 20px;
+}
+
 
 h1,h2,h3 {
     line-height: 1.4;
@@ -62,6 +66,8 @@ h1 {
 h2 {
     font-size: 2.25;
     font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 12px;
 }
 
 h3 {
@@ -146,7 +152,7 @@ a:active {
 }
 
 .socials { 
-    width: 25%;
+    width: 15%;
 }
 
 /*styling layout*/
@@ -161,11 +167,11 @@ header {
 }
 
 .container {
-    padding: 0 15px;
+    padding: 0 32px;
 }
 
 .row {
-    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .row2 {
@@ -183,7 +189,7 @@ header {
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 150px;
 }
 
 nav > ul {
@@ -237,44 +243,45 @@ main {
     margin: 15px;
 }
 
+.center {
+    text-align: center;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
 
     .container {
-        max-width: 1200px;
+        max-width: 940px;
         margin-left: auto;
         margin-right: auto;
-      }
+    }
     
+    h2 {
+        padding-left: 32px;
+        padding-top: 32px;
+    }
    
     header {
         text-align: unset;
         padding: 20px 0 13px;
-      }
+    }
 
-      .background {
+    .background {
         padding: 32px;
-      }
+    }
 
     .profilepic {
         text-align: center;
     }
 
 
-    h2 {
-        padding-left: 32px;
-    }
-
     #skilltool {
         text-align: center;
         padding-right: 32px;
     }
 
-    .row {
-        padding: 10px;
-    }
 
     nav {
         width: auto;
@@ -304,7 +311,6 @@ Medium devices (640px and larger)
         float: left;
     }
 
-    h2
 
     .row::after {
         content: "";
