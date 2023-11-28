@@ -1,1 +1,2 @@
-console.log("hello, welcome to my portfolio!")
+alert("hello, welcome to my portfolio!")
+console.log("whats up")
