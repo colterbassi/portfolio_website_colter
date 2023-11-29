@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4b937f5464.js" crossorigin="anonymous"></script>
     <meta name="author" content="Colter Bassi">
     <meta name="description" content="Colter Bassi UX UI Product Digital Design Portfolio">
     <title>Colter Bassi UX Portfolio</title>
@@ -18,14 +19,18 @@
 <body>
     <header>
         <div class="container">
-            <img class="logo" src="img/logo.svg" alt="Colter Bassi">
-            <nav>
-                <ul class="navigation">
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contact</a></i>
-                </ul>
-            </nav>
+            <div class="navtoggle" id="myNavtoggle">
+                <img class="logo" src="img/logo.svg" alt="Colter Bassi">
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact">Contact</a></i>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
+                                    class="fas fa-bars"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
@@ -1538,6 +1543,8 @@
                     src="img/linkedinicon.svg" /></a>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 
