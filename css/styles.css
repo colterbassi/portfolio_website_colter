@@ -204,9 +204,6 @@ header {
     padding: 0 0 10px;
   }
 
-.navtoggle.responsive li  {
-    display: block;
-  }
 
 .navtoggle li .icon {
     position: absolute;
@@ -223,10 +220,16 @@ header {
     display: none;
   }
 
+
 nav > ul {
     list-style-type: none;
     padding: 0;
 }
+
+.navtoggle.responsive li  {
+    display: block;
+  }
+  
 
   
 
