@@ -197,7 +197,6 @@ header {
   .navtoggle.responsive li  {
     display: block;
     padding: 10px 0;
-    border-top: 1px solid rgba(255,127,80,0.5);
   }
   
   .navtoggle.responsive li:last-child  {
@@ -229,9 +228,7 @@ nav > ul {
 .navtoggle.responsive li  {
     display: block;
   }
-  
-
-  
+    
 
 nav > ul > li > a {
     display: inline-block;
